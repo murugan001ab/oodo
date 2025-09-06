@@ -1,0 +1,72 @@
+# ==========================
+# Global ignores
+# ==========================
+*.log
+*.pot
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyc
+*.db
+*.sqlite3
+.env
+*.env
+venv/
+.env.local
+.DS_Store
+Thumbs.db
+
+# ==========================
+# Django / Backend
+# ==========================
+backend/__pycache__/
+backend/*.py[cod]
+backend/*/__pycache__/
+backend/.pytest_cache/
+backend/db.sqlite3
+backend/media/
+backend/staticfiles/
+backend/static/
+
+# Migrations (optional, but usually we keep them in version control)
+# backend/*/migrations/
+
+# VSCode settings
+.vscode/
+.idea/
+
+# ==========================
+# Python environment
+# ==========================
+.venv/
+env/
+venv/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ==========================
+# React / Frontend
+# ==========================
+frontend/node_modules/
+frontend/.parcel-cache/
+frontend/dist/
+frontend/build/
+frontend/.DS_Store
+frontend/.env
+frontend/.env.local
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/package-lock.json
+frontend/yarn.lock
+
+# ==========================
+# Coverage / Testing
+# ==========================
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
+coverage.xml
